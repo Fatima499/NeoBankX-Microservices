@@ -1,0 +1,31 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+*.tmp
+
+# IntelliJ / Eclipse / VS Code
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# Build
+/target/
+/bin/
+/out/
+
+# Spring Boot
+*.properties
+*.yml
+!src/main/resources/application*.yml
+!src/main/resources/application*.properties
+
+# MariaDB
+*.sql
+*.log
