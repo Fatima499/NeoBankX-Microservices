@@ -14,7 +14,7 @@ Le projet est structuré en plusieurs microservices indépendants :
 ##  Technologies utilisées
 
 - **Backend** : Java, Spring Boot
-- **Base de données** : MariaDB
+- **Base de données** : PostgreSQL
 - **Service Discovery** : Eureka Server
 - **API Gateway** : Spring Cloud Gateway
 - **Communication interservices** : OpenFeign
@@ -25,8 +25,7 @@ Le projet est structuré en plusieurs microservices indépendants :
 ### 1️ Prérequis
 Assurez-vous d'avoir installé :
 - Java 17+
-- Maven 3+
-- Docker (optionnel, pour MariaDB)
+- Maven 3+ 
 - Git
 
 ### 2️ Cloner le projet
@@ -36,7 +35,7 @@ Assurez-vous d'avoir installé :
 ```
 
 ### 3️ Configuration de la base de données
-Créer une base de données MariaDB pour chaque microservice :
+Créer une base de données PostgreSQL pour chaque microservice :
 ```sql
 CREATE DATABASE user_db;
 CREATE DATABASE account_db;
@@ -67,7 +66,3 @@ Une documentation Swagger sera bientôt ajoutée pour faciliter les tests.
 
 ##  Contribuer
 Les contributions sont les bienvenues ! Clonez le projet, créez une branche et soumettez une pull request. 
-
-##  Licence
-Projet sous licence MIT.
-
